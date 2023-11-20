@@ -1,0 +1,245 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.home_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+}
+.home_headerleft{
+    display: flex;
+    align-items: center;
+}
+.home_headerleft>p{
+    margin-right: 20px;
+    font-size: 15px;
+}
+.home_headerright{
+    display: flex;
+    align-items: center;
+}
+.home_headerright>p{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.home_headerright>svg{
+    margin-left: 20px;
+}
+.avatar{
+    margin-left: 20px;
+}
+.google{
+   flex: 1; 
+   display: flex;
+   flex-direction: column;
+   margin-top: 10%;
+   align-items: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 50px;
+    width: 500px;
+    padding: 10px 15px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border-radius: 600px;
+}
+.search>input{
+    flex: 1;
+    padding: 9px 14px;
+    outline: none;
+    border: none;
+    font-size: medium;
+}
+
+
+.adjust{
+    display: flex;
+    border: 1px solid lightgray;
+    height: 50px;
+    width: 500px;
+    padding: 10px 15px;
+    margin: 0px auto;
+    margin-top: 13px;
+    margin-left: 15px;
+    border-radius: 600px;
+}
+.adjust>input{
+    flex: 1;
+    padding: 9px 14px;
+    outline: none;
+    border: none;
+    font-size: medium;
+  
+}
+
+.searchicon{
+    color: gray;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button>.link{
+    margin-left: 15px;
+    background-color: #f8f8f8;
+    color: darkgrey;
+    border: 1px solid white;
+    text-transform: inherit; 
+}
+.button>.link:hover{
+    margin-left: 15px;
+    background-color: #f8f8f8;
+    color: #000;
+    border: 1px solid #c6c6c6;
+}
+.searchpage_header{
+    display: flex;
+    top: 0%;
+    position: sticky;
+    background-color: white;
+    /* z-index: 100; */
+    border-bottom: 1px solid lightgray;
+    padding: 30px;
+    /* align-items: flex-start; */
+}
+.searchpage_header img{
+    height: 50px;
+   margin-right: 50px;
+}
+.searchpage_option{
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.searchpage_option a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 5px;
+}
+.searchpage_optionleft{
+    display: flex;
+    align-items: center;
+}
+
+
+.searchpage_optionright{
+    display: flex;
+    align-items: center;
+}
+.searchpage_optionright{
+    margin-left: 37px;
+}
+.search{
+    margin-top: 0%;
+    margin-left: 33px;
+}
+.searchpage_resultcount{
+    color: #70757a;
+    font-size: 14px;
+}
+.searchpage_result{
+    margin: 40px 0;
+}
+.searchpage_resultimage{
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.searchpage_resultlink{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000;
+}
+.searchpage_resulttitle{
+    text-decoration: none;
+}
+.searchpage_resulttitle:hover{
+    text-decoration: underline;
+}
+.searchpage_resulttitle>h2{
+    font-weight: 500px;
+}
+.searchpage_description{
+    margin-top: 10px;
+}
+.searchpage_results{
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-right:100px;
+}
+.card_list{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+box-sizing: border-box;
+background-color: #70757a;
+
+}
+.container{
+padding: 2%;
+border: 2px solid black;
+border-radius: 25px;
+align-items: center;
+
+
+}
+.container>.image{
+flex-wrap: wrap;
+margin-top: 2px;
+ font-size: larger;
+ width: 250px;
+ height: 200px;
+ border: 2px solid black;
+ justify-content: space-evenly;
+ padding: 1%;
+}
+
+.searchbar1{
+    display: flex;
+    border: 1px solid lightgray;
+    height: 50px;
+    width: 500px;
+    padding: 10px 15px;
+    margin: 0px auto;
+    margin-top: 13px;
+    margin-left: 15px;
+    border-radius: 600px;
+}
+
+.searchbar1>.form{
+    flex: 1;
+    outline: none;
+    border: none;
+    font-size: medium;
+   
+}
+
+.searchbar1>.form>input{
+   margin-top: auto;
+   outline: none;
+   border: none;
+   border: none;
+    width: 100%;
+    padding: 1.5%;
+   
+}
+
